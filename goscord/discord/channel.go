@@ -174,13 +174,13 @@ type AllowedMentions struct {
 }
 
 type MessageReaction struct {
-	UserId            string       `json:"user_id"`
-	ChannelId         string       `json:"channel_id"`
-	MessageId         string       `json:"message_id"`
-	GuildId           string       `json:"guild_id"`
-	Member            *GuildMember `json:"member"`
-	Emoji             *Emoji       `json:"emoji"`
-	Message_Author_Id string       `json:"message_author_id"`
+	UserId          string       `json:"user_id"`
+	ChannelId       string       `json:"channel_id"`
+	MessageId       string       `json:"message_id"`
+	GuildId         string       `json:"guild_id"`
+	Member          *GuildMember `json:"member"`
+	Emoji           *Emoji       `json:"emoji"`
+	MessageAuthorId string       `json:"message_author_id"`
 }
 
 type Message struct {
