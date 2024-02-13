@@ -1,7 +1,7 @@
 package packet
 
 import (
-	"github.com/Goscord/goscord/goscord/discord"
+	"github.com/tomoconnor/goscord/goscord/discord"
 )
 
 type PresenceUpdate struct {

@@ -3,8 +3,8 @@ package rest
 import (
 	"bytes"
 	"fmt"
-	"github.com/Goscord/goscord/goscord/discord"
 	"github.com/bytedance/sonic"
+	"github.com/tomoconnor/goscord/goscord/discord"
 )
 
 type ApplicationHandler struct {

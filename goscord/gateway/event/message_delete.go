@@ -1,8 +1,8 @@
 package event
 
 import (
-	"github.com/Goscord/goscord/goscord/rest"
 	"github.com/bytedance/sonic"
+	"github.com/tomoconnor/goscord/goscord/rest"
 )
 
 type MessageDelete struct {

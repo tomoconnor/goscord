@@ -5,9 +5,8 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/Goscord/goscord/goscord/discord"
-	"github.com/Goscord/goscord/goscord/discord/embed"
 	"github.com/bytedance/sonic"
+	"github.com/tomoconnor/goscord/goscord/discord"
 )
 
 type InteractionHandler struct {

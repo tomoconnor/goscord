@@ -1,7 +1,7 @@
 package goscord
 
 import (
-	"github.com/Goscord/goscord/goscord/gateway"
+	"github.com/tomoconnor/goscord/goscord/gateway"
 )
 
 func New(options *gateway.Options) *gateway.Session {

@@ -1,4 +1,4 @@
-module github.com/Goscord/goscord
+module github.com/tomoconnor/goscord
 
 go 1.18
 

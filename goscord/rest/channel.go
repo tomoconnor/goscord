@@ -5,12 +5,12 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/Goscord/goscord/goscord/discord"
-	"github.com/Goscord/goscord/goscord/discord/embed"
-	"github.com/bytedance/sonic"
 	"io"
 	"mime/multipart"
-	"os"
+
+	"github.com/bytedance/sonic"
+	"github.com/tomoconnor/goscord/goscord/discord"
+	"github.com/tomoconnor/goscord/goscord/discord/builder"
 )
 
 type ChannelHandler struct {

@@ -2,8 +2,8 @@ package rest
 
 import (
 	"fmt"
-	"github.com/Goscord/goscord/goscord/discord"
 	"github.com/bytedance/sonic"
+	"github.com/tomoconnor/goscord/goscord/discord"
 )
 
 type GuildHandler struct {

@@ -1,9 +1,9 @@
 package discord
 
 import (
-	"github.com/Goscord/goscord/goscord/discord/embed"
-	"github.com/bytedance/sonic"
 	"time"
+
+	"github.com/bytedance/sonic"
 )
 
 type MessageActivityType int

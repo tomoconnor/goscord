@@ -3,8 +3,8 @@ package rest
 import (
 	"errors"
 	"fmt"
-	"github.com/Goscord/goscord/goscord/rest/ratelimit"
 	"github.com/bytedance/sonic"
+	"github.com/tomoconnor/goscord/goscord/rest/ratelimit"
 	"io"
 	"net/http"
 	"strings"
@@ -35,7 +35,7 @@ func (c *Client) Request(endpoint, method string, data io.Reader, contentType st
 	}
 
 	req.Header.Set("Content-Type", contentType)
-	req.Header.Set("User-Agent", "DiscordBot (https://github.com/Goscord/goscord, 1.0.0)")
+	req.Header.Set("User-Agent", "DiscordBot (https://github.com/tomoconnor/goscord, 1.0.0)")
 	req.Header.Set("Authorization", fmt.Sprintf("Bot %s", c.token))
 
 	client := &http.Client{Timeout: 5 * time.Second}

@@ -1,8 +1,8 @@
 package event
 
 import (
-	"github.com/Goscord/goscord/goscord/discord"
 	"github.com/bytedance/sonic"
+	"github.com/tomoconnor/goscord/goscord/discord"
 )
 
 type Ready struct {
