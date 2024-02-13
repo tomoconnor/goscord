@@ -1,8 +1,8 @@
 package rest
 
 import (
-	"github.com/Goscord/goscord/goscord/discord"
 	"github.com/bytedance/sonic"
+	"github.com/tomoconnor/goscord/goscord/discord"
 )
 
 type VoiceHandler struct {

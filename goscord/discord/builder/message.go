@@ -1,7 +1,7 @@
 package builder
 
 import (
-	"github.com/Goscord/goscord/goscord/discord"
+	"github.com/tomoconnor/goscord/goscord/discord"
 	"io"
 )
 

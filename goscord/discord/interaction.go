@@ -2,7 +2,7 @@ package discord
 
 import (
 	"encoding/json"
-	"github.com/Goscord/goscord/goscord/discord/embed"
+
 	"github.com/bytedance/sonic"
 )
 

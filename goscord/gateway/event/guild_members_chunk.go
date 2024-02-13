@@ -1,9 +1,9 @@
 package event
 
 import (
-	"github.com/Goscord/goscord/goscord/discord"
-	"github.com/Goscord/goscord/goscord/rest"
 	"github.com/bytedance/sonic"
+	"github.com/tomoconnor/goscord/goscord/discord"
+	"github.com/tomoconnor/goscord/goscord/rest"
 )
 
 // GuildMembersChunk Is sent in response to Guild Request Members. You can use the chunk_index and chunk_count to calculate how many chunks are left for your request.

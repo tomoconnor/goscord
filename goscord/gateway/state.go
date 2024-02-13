@@ -2,8 +2,8 @@ package gateway
 
 import (
 	"errors"
-	"github.com/Goscord/goscord/goscord/discord"
-	"github.com/Goscord/goscord/goscord/gateway/event"
+	"github.com/tomoconnor/goscord/goscord/discord"
+	"github.com/tomoconnor/goscord/goscord/gateway/event"
 	"sync"
 )
 

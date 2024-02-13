@@ -1,7 +1,7 @@
 package gateway
 
 import (
-	"github.com/Goscord/goscord/goscord/gateway/event"
+	"github.com/tomoconnor/goscord/goscord/gateway/event"
 )
 
 type AutoModerationRuleCreateHandler struct{}
