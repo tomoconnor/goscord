@@ -3,16 +3,17 @@ package gateway
 import (
 	"errors"
 	"fmt"
-	"github.com/bytedance/sonic"
-	"github.com/tomoconnor/goscord/goscord/discord"
-	"github.com/tomoconnor/goscord/goscord/gateway/event"
-	"github.com/tomoconnor/goscord/goscord/gateway/packet"
-	"github.com/tomoconnor/goscord/goscord/rest"
 	"io"
 	"net"
 	"sync"
 	"syscall"
 	"time"
+
+	"github.com/bytedance/sonic"
+	"github.com/tomoconnor/goscord/goscord/discord"
+	"github.com/tomoconnor/goscord/goscord/gateway/event"
+	"github.com/tomoconnor/goscord/goscord/gateway/packet"
+	"github.com/tomoconnor/goscord/goscord/rest"
 
 	ev "github.com/asaskevich/EventBus"
 	"github.com/gorilla/websocket"
@@ -132,17 +133,18 @@ func (s *Session) registerHandlers() {
 		event.EventGuildRoleUpdate:               &GuildRoleUpdateHandler{},
 		event.EventGuildRoleDelete:               &GuildRoleDeleteHandler{},
 
-		event.EventGuildCreate:       &GuildCreateHandler{},
-		event.EventGuildUpdate:       &GuildUpdateHandler{},
-		event.EventGuildDelete:       &GuildDeleteHandler{},
-		event.EventGuildBanAdd:       &GuildBanAddHandler{},
-		event.EventGuildBanRemove:    &GuildBanRemoveHandler{},
-		event.EventGuildEmojisUpdate: &GuildEmojisUpdateHandler{},
-		event.EventMessageCreate:     &MessageCreateHandler{},
-		event.EventPresenceUpdate:    &PresenceUpdateHandler{},
-		event.EventInteractionCreate: &InteractionCreateHandler{},
-		event.EventVoiceStateUpdate:  &VoiceStateUpdateHandler{},
-		event.EventVoiceServerUpdate: &VoiceServerUpdateHandler{},
+		event.EventGuildCreate:        &GuildCreateHandler{},
+		event.EventGuildUpdate:        &GuildUpdateHandler{},
+		event.EventGuildDelete:        &GuildDeleteHandler{},
+		event.EventGuildBanAdd:        &GuildBanAddHandler{},
+		event.EventGuildBanRemove:     &GuildBanRemoveHandler{},
+		event.EventGuildEmojisUpdate:  &GuildEmojisUpdateHandler{},
+		event.EventMessageCreate:      &MessageCreateHandler{},
+		event.EventPresenceUpdate:     &PresenceUpdateHandler{},
+		event.EventInteractionCreate:  &InteractionCreateHandler{},
+		event.EventVoiceStateUpdate:   &VoiceStateUpdateHandler{},
+		event.EventVoiceServerUpdate:  &VoiceServerUpdateHandler{},
+		event.EventMessageReactionAdd: &MessageReactionHandler{},
 	}
 }
 
